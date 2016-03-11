@@ -2574,6 +2574,20 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.applications.WriteSettingsDetails" />
         </activity>
+        <!-- Raindrop -->
+         <activity android:name="Settings$RaindropSettingsActivity"
+                   android:label="@string/raindrop_settings_title"
+                   android:taskAffinity=""
+                   android:icon="@drawable/empty_icon"
+                   android:excludeFromRecents="true">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.DEFAULT" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                        android:value="com.android.settings.raindrop.RaindropSettings" />
+         </activity>
 
     </application>
 </manifest>
