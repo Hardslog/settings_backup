@@ -72,6 +72,22 @@
 
     </dashboard-category>
 
+    <!-- Raindrop -->
+    <dashboard-category
+            android:id="@+id/raindrop_settings"
+            android:key="@string/raindrop_settings_title"
+            android:title="@string/raindrop_settings_title" >
+        
+        <!-- Recents -->
+        <dashboard-tile
+                android:id="@+id/recents_settings"
+                android:title="@string/recents_title"
+                android:fragment="com.android.settings.raindrop.Recents"
+                android:icon="@drawable/ic_settings_more"
+                />    
+    
+    </dashboard-category>
+
     <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"

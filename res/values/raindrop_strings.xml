@@ -18,5 +18,9 @@
  
      <!-- Raindrop -->
      <string name="raindrop_settings_title">Raindrop</string>
+    
+     <!-- Recents -->
+     <string name="recents_title">Recents</string>
+     <string name="recents_category">Recents</string>
  
  </resources>
